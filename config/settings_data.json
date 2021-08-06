@@ -8,7 +8,6 @@
         "blocks": {
           "announcement-bar-0": {
             "type": "announcement",
-            "disabled": true,
             "settings": {
               "text": "50% OFF For July 4th",
               "color_scheme": "inverse",
