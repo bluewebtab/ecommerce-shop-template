@@ -5,7 +5,9 @@
       <div class="{{ section.settings.xxl_col }} {{ section.settings.xl_col }} {{ section.settings.lg_col }} {{ section.settings.md_col }} {{ section.settings.sm_col }}">
         <div class="collection1__collection-item">
           {% assign opacity = section.settings.opacity | divided_by: 100.00 %}
-          <div class="collection1__product-img collection1__product-img--{{ section.settings.image_fit }}" style="background-color: {{ section.settings.background | color_modify: 'alpha', opacity }}">
+          <div class="collection1__product-img
+              collection1__product-img--{{ section.settings.container_shape }}
+              collection1__product-img--{{ section.settings.image_fit }}" style="background-color: {{ section.settings.background | color_modify: 'alpha', opacity }}">
               <div class="collection1__heart">
                 <i class="far fa-heart"></i>
               </div>
@@ -89,29 +91,33 @@
       "label": "Featured collection"
     },
     {
-      "type": "select",
+      "type": "range",
       "id": "total_products",
+      "min": 1,
+      "max": 16,
+      "step": 1,
+      "label": "Total Products",
+      "default": 16
+    },
+    {
+      "type": "select",
+      "id": "container_shape",
       "options": [
         {
-          "value": "4",
-          "label": "4"
+          "value": "rectangle",
+          "label": "Rectangle"
         },
         {
-          "value": "8",
-          "label": "8"
+          "value": "square",
+          "label": "Square"
         },
         {
-          "value": "12",
-          "label": "12"
-        },
-        {
-          "value": "16",
-          "label": "16"
+          "value": "circle",
+          "label": "Circle"
         }
-
       ],
-      "default": "8",
-      "label": "Total Products To Show"
+      "default": "rectangle",
+      "label": "Product Container Shape"
     },
     {
       "type": "select",
