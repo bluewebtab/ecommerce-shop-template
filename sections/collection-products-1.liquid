@@ -59,9 +59,25 @@
         <div class="col-md-4">
           <div class="collection1__collection-item">
             <div class="collection1__product-img collection1__product-img--rectangle">
-              <img src="https://www.pngkey.com/png/full/6-63881_men-shoes-png-picture-royalty-free-shoes-for.png" alt="">
-            </div><div class="collection1__product-info"><div class="collection1__product-details">
-              <span class="collection1__product-title">Shoes</span>
+              <img
+              srcset="{%- if product.images[0].width >= 165 -%}{{ product.images[0] | img_url: '165x' }} 165w,{%- endif -%}
+                {%- if product.images[0].width >= 360 -%}{{ product.images[0] | img_url: '360x' }} 360w,{%- endif -%}
+                {%- if product.images[0].width >= 535 -%}{{ product.images[0]| img_url: '535x' }} 535w,{%- endif -%}
+                {%- if product.images[0].width >= 750 -%}{{ product.images[0]| img_url: '750x' }} 750w,{%- endif -%}
+                {%- if product.images[0].width >= 1070 -%}{{ product.images[0] | img_url: '1070x' }} 1070w,{%- endif -%}
+                {%- if product.images[0].width >= 1500 -%}{{ product.images[0] | img_url: '1500x' }} 1500w,{%- endif -%}"
+              src="{{ product.images[0] | img_url: '1500x' }}"
+              sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+              alt="{{ section.settings.image.alt | escape }}"
+              loading="lazy"
+              width="{{ section.settings.image.width }}"
+              height="{{ section.settings.image.height }}"
+              class="hero1__bg"
+            >
+            </div>
+            <div class="collection1__product-info">
+              <div class="collection1__product-details">
+              <span class="collection1__product-title">Product</span>
               <span class="collection1__product-price">$300</span>
             </div>
             <div class="collection1__colors">
@@ -78,11 +94,25 @@
       <div class="col-md-4">
         <div class="collection1__collection-item">
           <div class="collection1__product-img collection1__product-img--rectangle">
-            <img src="https://www.pngkey.com/png/full/1010-10100658_fashion-line-pn9906-slip-on-shoe.png" alt="">
-          </div>
+            <img
+            srcset="{%- if product.images[0].width >= 165 -%}{{ product.images[0] | img_url: '165x' }} 165w,{%- endif -%}
+              {%- if product.images[0].width >= 360 -%}{{ product.images[0] | img_url: '360x' }} 360w,{%- endif -%}
+              {%- if product.images[0].width >= 535 -%}{{ product.images[0]| img_url: '535x' }} 535w,{%- endif -%}
+              {%- if product.images[0].width >= 750 -%}{{ product.images[0]| img_url: '750x' }} 750w,{%- endif -%}
+              {%- if product.images[0].width >= 1070 -%}{{ product.images[0] | img_url: '1070x' }} 1070w,{%- endif -%}
+              {%- if product.images[0].width >= 1500 -%}{{ product.images[0] | img_url: '1500x' }} 1500w,{%- endif -%}"
+            src="{{ product.images[0] | img_url: '1500x' }}"
+            sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+            alt="{{ section.settings.image.alt | escape }}"
+            loading="lazy"
+            width="{{ section.settings.image.width }}"
+            height="{{ section.settings.image.height }}"
+            class="hero1__bg"
+          >          
+        </div>
           <div class="collection1__product-info">
             <div class="collection1__product-details">
-              <span class="collection1__product-title">Shoes</span>
+              <span class="collection1__product-title">Product</span>
               <span class="collection1__product-price">$400</span>
             </div>
             <div class="collection1__colors">
@@ -98,10 +128,25 @@
       <div class="col-md-4">
         <div class="collection1__collection-item">
           <div class="collection1__product-img collection1__product-img--rectangle">
-            <img src="https://www.pngkey.com/png/full/774-7744704_mens-waterproof-dress-boots.png" alt="">
-          </div><div class="collection1__product-info">
+            <img
+            srcset="{%- if product.images[0].width >= 165 -%}{{ product.images[0] | img_url: '165x' }} 165w,{%- endif -%}
+              {%- if product.images[0].width >= 360 -%}{{ product.images[0] | img_url: '360x' }} 360w,{%- endif -%}
+              {%- if product.images[0].width >= 535 -%}{{ product.images[0]| img_url: '535x' }} 535w,{%- endif -%}
+              {%- if product.images[0].width >= 750 -%}{{ product.images[0]| img_url: '750x' }} 750w,{%- endif -%}
+              {%- if product.images[0].width >= 1070 -%}{{ product.images[0] | img_url: '1070x' }} 1070w,{%- endif -%}
+              {%- if product.images[0].width >= 1500 -%}{{ product.images[0] | img_url: '1500x' }} 1500w,{%- endif -%}"
+            src="{{ product.images[0] | img_url: '1500x' }}"
+            sizes="(min-width: {{ settings.page_width }}px) {{ settings.page_width | minus: 100 | divided_by: 2 }}px, (min-width: 750px) calc((100vw - 130px) / 2), calc((100vw - 50px) / 2)"
+            alt="{{ section.settings.image.alt | escape }}"
+            loading="lazy"
+            width="{{ section.settings.image.width }}"
+            height="{{ section.settings.image.height }}"
+            class="hero1__bg"
+          >
+          </div>
+          <div class="collection1__product-info">
             <div class="collection1__product-details">
-              <span class="collection1__product-title">Shoes</span>
+              <span class="collection1__product-title">Product</span>
               <span class="collection1__product-price">$450</span>
             </div><div class="collection1__colors">
               <div class="collection1__color collection1__color--blue">
