@@ -158,6 +158,42 @@
         "md_col": "col-md-3",
         "sm_col": "col-sm-6"
       }
+    },
+    "162889050158d11518": {
+      "type": "hero-one",
+      "blocks": {
+        "162889050158d11518-0": {
+          "type": "heading",
+          "settings": {
+            "title": "Title",
+            "title_size": "md"
+          }
+        },
+        "162889050158d11518-1": {
+          "type": "paragraph",
+          "settings": {
+            "paragraph": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
+          }
+        },
+        "162889050158d11518-2": {
+          "type": "button",
+          "settings": {
+            "button_label": "Button label",
+            "button_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "162889050158d11518-0",
+        "162889050158d11518-1",
+        "162889050158d11518-2"
+      ],
+      "settings": {
+        "hero_height": "100vh",
+        "background": "#000000",
+        "opacity": 50,
+        "info_alignment": "right"
+      }
     }
   },
   "order": [
@@ -167,6 +203,7 @@
     "16288903267d5f027e",
     "featured_products",
     "16288903913c581b2f",
-    "1628890453739165dc"
+    "1628890453739165dc",
+    "162889050158d11518"
   ]
 }
