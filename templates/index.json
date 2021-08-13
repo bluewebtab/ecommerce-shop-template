@@ -36,35 +36,6 @@
         "info_alignment": "center"
       }
     },
-    "featured_products": {
-      "type": "featured-collection",
-      "settings": {
-        "title": "Featured products",
-        "collection": "",
-        "products_to_show": 4,
-        "show_view_all": true,
-        "swipe_on_mobile": false,
-        "image_ratio": "adapt",
-        "show_secondary_image": false,
-        "add_image_padding": false,
-        "show_image_outline": true,
-        "show_vendor": false
-      }
-    },
-    "162889026961963922": {
-      "type": "hero-two",
-      "settings": {
-        "hero_height": "100vh",
-        "background1": "#000000",
-        "opacity1": 50,
-        "button_label1": "Button label",
-        "button_link1": "",
-        "background2": "#000000",
-        "opacity2": 50,
-        "button_label2": "Button label",
-        "button_link2": ""
-      }
-    },
     "16288903103dd37a19": {
       "type": "collection-group",
       "blocks": {
@@ -104,12 +75,62 @@
         "md_col": "col-md-4",
         "sm_col": "col-sm-2"
       }
+    },
+    "162889026961963922": {
+      "type": "hero-two",
+      "settings": {
+        "hero_height": "100vh",
+        "background1": "#000000",
+        "opacity1": 50,
+        "button_label1": "Button label",
+        "button_link1": "",
+        "background2": "#000000",
+        "opacity2": 50,
+        "button_label2": "Button label",
+        "button_link2": ""
+      }
+    },
+    "featured_products": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured products",
+        "collection": "",
+        "products_to_show": 4,
+        "show_view_all": true,
+        "swipe_on_mobile": false,
+        "image_ratio": "adapt",
+        "show_secondary_image": false,
+        "add_image_padding": false,
+        "show_image_outline": true,
+        "show_vendor": false
+      }
+    },
+    "16288903267d5f027e": {
+      "type": "collection-products-1",
+      "settings": {
+        "hero_height": "100vh",
+        "collection": "",
+        "total_products": 16,
+        "container_shape": "rectangle",
+        "image_fit": "contain",
+        "background": "#FFFFFF",
+        "opacity": 100,
+        "show_title": true,
+        "show_colors": true,
+        "show_price": true,
+        "xxl_col": "col-xxl-3",
+        "xl_col": "col-xl-3",
+        "lg_col": "col-lg-3",
+        "md_col": "col-md-3",
+        "sm_col": "col-sm-6"
+      }
     }
   },
   "order": [
     "16288902200d2ea6d1",
-    "featured_products",
+    "16288903103dd37a19",
     "162889026961963922",
-    "16288903103dd37a19"
+    "featured_products",
+    "16288903267d5f027e"
   ]
 }
