@@ -8,9 +8,7 @@
           <div class="collection1__product-img
               collection1__product-img--{{ section.settings.container_shape }}
               collection1__product-img--{{ section.settings.image_fit }}" style="background-color: {{ section.settings.background | color_modify: 'alpha', opacity }}">
-              <div class="collection1__heart">
-                <i class="far fa-heart"></i>
-              </div>
+             
               {%- if product.images[0] != blank -%}
               <a href="{{product.url}}" class="img-link">
               <img
@@ -39,13 +37,10 @@
               <span class="collection1__product-title">{{product.title}}</span>
               {%- endif -%}
               {%- if section.settings.show_price == true -%}
-              <span class="collection1__product-price">${{product.price}}</span>
+              <span class="collection1__product-price">{{ product.price | money }}</span>
               {%- endif -%}
             </div>
-            <div class="collection1__colors">
-              <div class="collection1__color collection1__color--blue"></div>
-              <div class="collection1__color collection1__color--black"></div>
-            </div>
+           
           </div>
         </div>
       </div>
@@ -154,6 +149,12 @@
       "type": "checkbox",
       "id": "show_title",
       "label": "Show Title",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_colors",
+      "label": "Show Colors",
       "default": true
     },
     {

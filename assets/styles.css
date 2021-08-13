@@ -644,10 +644,10 @@ table {
   height: 20px;
   margin-right: 5px;
 }
-.collection1__color--black {
+.collection1__color--one {
   background: #000;
 }
-.collection1__color--blue {
+.collection1__color--two {
   background: #00f;
 }
 .collection1__color--red {
