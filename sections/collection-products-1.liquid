@@ -1,3 +1,4 @@
+{% if section.settings.collection.all_products_count %}
 <div class="collection collection1">
   <div class="container">
     <div class="row">
@@ -48,8 +49,74 @@
     </div>
   </div>
 </div>
+{% else %}
 
+{% endif %}
+  <h1>Show Demo</h1>
+  <div class="collection collection1">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="collection1__collection-item">
+            <div class="collection1__product-img collection1__product-img--rectangle">
+              <img src="https://www.pngkey.com/png/full/6-63881_men-shoes-png-picture-royalty-free-shoes-for.png" alt="">
+            </div><div class="collection1__product-info"><div class="collection1__product-details">
+              <span class="collection1__product-title">Shoes</span>
+              <span class="collection1__product-price">$300</span>
+            </div>
+            <div class="collection1__colors">
+              <div class="collection1__color collection1__color--blue">
 
+              </div>
+              <div class="collection1__color collection1__color--black">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="collection1__collection-item">
+          <div class="collection1__product-img collection1__product-img--rectangle">
+            <img src="https://www.pngkey.com/png/full/1010-10100658_fashion-line-pn9906-slip-on-shoe.png" alt="">
+          </div>
+          <div class="collection1__product-info">
+            <div class="collection1__product-details">
+              <span class="collection1__product-title">Shoes</span>
+              <span class="collection1__product-price">$400</span>
+            </div>
+            <div class="collection1__colors">
+              <div class="collection1__color collection1__color--blue">
+
+              </div><div class="collection1__color collection1__color--white">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="collection1__collection-item">
+          <div class="collection1__product-img collection1__product-img--rectangle">
+            <img src="https://www.pngkey.com/png/full/774-7744704_mens-waterproof-dress-boots.png" alt="">
+          </div><div class="collection1__product-info">
+            <div class="collection1__product-details">
+              <span class="collection1__product-title">Shoes</span>
+              <span class="collection1__product-price">$450</span>
+            </div><div class="collection1__colors">
+              <div class="collection1__color collection1__color--blue">
+
+              </div>
+              <div class="collection1__color collection1__color--white">
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 {% schema %}
 {
   "name": "Collection Products 1",
