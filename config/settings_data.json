@@ -2,6 +2,8 @@
   "current": {
     "type_header_font": "neue_plak_n3",
     "type_body_font": "neue_plak_n3",
+    "social_twitter_link": "https:\/\/twitter.com\/shopify",
+    "social_facebook_link": "https:\/\/facebook.com\/shopify",
     "sections": {
       "announcement-bar": {
         "type": "announcement-bar",
@@ -10,7 +12,8 @@
             "type": "announcement",
             "settings": {
               "text": "50% OFF For July 4th",
-              "color_scheme": "inverse",
+              "background_color": "#605e7d",
+              "announcement_text_color": "#FFFFFF",
               "link": "shopify:\/\/products\/adidas-classic-backpack"
             }
           }
@@ -24,11 +27,10 @@
       "header": {
         "type": "header",
         "settings": {
+          "header_type": "header1",
           "logo_width": 100,
-          "logo_position": "middle-left",
           "menu": "main-menu",
-          "show_line_separator": true,
-          "enable_sticky_header": true
+          "menu_two": "main-menu"
         }
       },
       "footer": {
@@ -46,13 +48,11 @@
           "footer-0"
         ],
         "settings": {
-          "color_scheme": "background-1",
+          "footer_p": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
           "newsletter_enable": true,
           "newsletter_heading": "Sign up to our emails",
           "show_social": false,
-          "enable_country_selector": true,
-          "enable_language_selector": true,
-          "payment_enable": true
+          "footer_bottom_menu": "main-menu"
         }
       }
     },
