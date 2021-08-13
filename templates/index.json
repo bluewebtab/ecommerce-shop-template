@@ -189,10 +189,10 @@
         "162889050158d11518-2"
       ],
       "settings": {
-        "hero_height": "100vh",
+        "hero_height": "50vh",
         "background": "#000000",
         "opacity": 50,
-        "info_alignment": "right"
+        "info_alignment": "center"
       }
     }
   },
