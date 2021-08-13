@@ -79,7 +79,7 @@
     "162889026961963922": {
       "type": "hero-two",
       "settings": {
-        "hero_height": "100vh",
+        "hero_height": "50vh",
         "background1": "#000000",
         "opacity1": 50,
         "button_label1": "Button label",
@@ -128,7 +128,7 @@
     "16288903913c581b2f": {
       "type": "hero-two",
       "settings": {
-        "hero_height": "100vh",
+        "hero_height": "50vh",
         "background1": "#000000",
         "opacity1": 50,
         "button_label1": "Button label",
