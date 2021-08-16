@@ -8,6 +8,28 @@
     "theme_support_url": "https:\/\/support.shopify.com\/"
   },
   {
+    "name": "Header Settings",
+    "settings": [
+      {
+        "type": "header",
+        "content": "Header Background Color"
+      },
+      {
+        "type": "color",
+        "id": "header_bg",
+        "default": "#FFFFFF",
+        "label": "Header Background",
+        "info": "This is the background color for the header"
+      },
+      {
+        "type": "checkbox",
+        "id": "show_header_background",
+        "label": "Show Header Background Color",
+        "default": false
+      }
+    ]
+  },
+  {
     "name": "t:settings_schema.colors.name",
     "settings": [
       {

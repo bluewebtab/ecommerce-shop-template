@@ -103,6 +103,11 @@
     {% style %}
     :root {
       --body-bg: {{settings.body_bg}};
+      --colors_solid_button_labels: {{settings.colors_solid_button_labels}};
+      --colors_accent_1: {{settings.colors_accent_1}};
+      --colors_outline_button_labels: {{settings.colors_outline_button_labels}};
+      --colors_background_1: {{settings.colors_background_1}};
+      --header_bg: {{settings.header_bg}};
       --announce-bar-default: #605e7d;
     }
     body {
@@ -181,7 +186,11 @@
     <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
   </head>
 
-  <body class="fixed-nav transparent-nav" style="background: var(--body-bg)">
+    {%- if settings.show_header_background -%}
+      <body class="fixed-nav" style="background: var(--body-bg)">
+    {%- else -%}
+      <body class="fixed-nav transparent-nav" style="background: var(--body-bg)">
+    {%- endif -%}
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
     </a>
