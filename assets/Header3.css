@@ -1,6 +1,5 @@
 .header3 {
   background: var(--header_bg);
-  color: #1b1b1b;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -9,11 +8,11 @@
 .header3 a {
   font-family: sans-serif;
   text-decoration: none;
-  color: #2c2952;
+  color: var(--header_font_color);
   font-weight: 400;
 }
 .header3 a:hover {
-  color: #e63b49;
+  color: var(--header_font_color_hover);
 }
 .header3__collections-nav {
   display: flex;
@@ -41,13 +40,13 @@
   left: 0;
 }
 .header3__collection-link .collection-link__sub-links a {
-  color: #2c2952;
+  color: var(--header_font_color);
   font-size: 0.9rem;
   display: block;
   padding: 10px 20px;
 }
 .header3__collection-link .collection-link__sub-links a:hover {
-  color: red;
+  color: var(--header_font_color_hover);
 }
 .header3__collection-link:hover .collection-link__sub-links {
   visibility: visible;

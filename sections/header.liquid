@@ -186,6 +186,42 @@
 
 {% endcase %}
 
+<script>
+  console.log('loaded js from header')
+  //Get body element
+  const bodyTag = document.getElementsByTagName('body')[0];
+
+  const headerWrapper = document.getElementById('shopify-section-header');
+  if(bodyTag.classList.contains('fixed-nav')){
+    headerWrapper.style.position = 'fixed';
+    headerWrapper.style.top = 0;
+    headerWrapper.style.left = 0;
+    headerWrapper.style.width = '100%';
+    headerWrapper.style.zIndex = '7';
+
+  }
+
+  //check for class fixed-nav and transparent-nav
+  if(bodyTag.classList.contains('fixed-nav') && bodyTag.classList.contains('transparent-nav')){
+    //change styles of header wrapper
+
+      //remove class of transparent bg when scrolled
+      const onScroll = () => {
+        const scrollLocation = document.documentElement.scrollTop;
+
+        if(scrollLocation > 50){
+          bodyTag.classList.remove('transparent-nav')
+        }else{
+          bodyTag.classList.add('transparent-nav')
+
+        }
+      }
+      window.addEventListener('scroll', onScroll)
+  }
+  //if class fixed-nav exists remove transparent-nav class when you scroll
+
+</script>
+
 {% schema %}
 {
   "name": "t:sections.header.name",

@@ -102,23 +102,23 @@
 
     {% style %}
     :root {
-      --body-bg: {{settings.body_bg}};
+      --body_bg: {{settings.body_bg}};
+      --header_bg: {{settings.header_bg}};
+      --header_font_color: {{settings.header_font_color}};
+      --header_font_color_hover: {{settings.header_font_color_hover}};
       --colors_solid_button_labels: {{settings.colors_solid_button_labels}};
       --colors_accent_1: {{settings.colors_accent_1}};
       --colors_outline_button_labels: {{settings.colors_outline_button_labels}};
       --colors_background_1: {{settings.colors_background_1}};
-      --header_bg: {{settings.header_bg}};
       --announce-bar-default: #605e7d;
     }
     body {
-      background-color: var(--body-bg);
+      background-color: var(--body_bg);
     }
     a:hover {
       color: #f84c4c;
     }
-    .fixed-nav.transparent-nav .header {
-      background: transparent;
-    }
+   
     .fixed-nav.transparent-nav .header a {
       color: #fff;
     }
@@ -166,10 +166,20 @@
       a:hover {
       color: red;
     }
-    .fixed-nav .header {
+
+    .fixed-nav .header{
+       position: fixed;
+       top: 0;
+       left: 0;
+       width: 100%;
+       z-index: 20;
+      
+    }
+  
+    .transparent-nav .header{
+      background: transparent;
       position: fixed;
       width: 100%;
-      z-index: 20;
     }
     
 
@@ -186,11 +196,8 @@
     <script>document.documentElement.className = document.documentElement.className.replace('no-js', 'js');</script>
   </head>
 
-    {%- if settings.show_header_background -%}
-      <body class="fixed-nav" style="background: var(--body-bg)">
-    {%- else -%}
-      <body class="fixed-nav transparent-nav" style="background: var(--body-bg)">
-    {%- endif -%}
+   
+    <body class="{% if settings.header_sticky == true %} fixed-nav {% endif %}{% if settings.header_transparent == true %} transparent-nav {% endif %}" >
     <a class="skip-to-content-link button visually-hidden" href="#MainContent">
       {{ "accessibility.skip_to_text" | t }}
     </a>

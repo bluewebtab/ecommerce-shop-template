@@ -22,10 +22,30 @@
         "info": "This is the background color for the header"
       },
       {
+        "type": "color",
+        "id": "header_font_color",
+        "default": "#2c2952",
+        "label": "Header Font Color",
+        "info": "This is the font color for the header"
+      },
+      {
+        "type": "color",
+        "id": "header_font_color_hover",
+        "default": "#FF0000",
+        "label": "Header Hover Font Color",
+        "info": "This is the font color for the header when it's hovered"
+      },
+      {
         "type": "checkbox",
-        "id": "show_header_background",
-        "label": "Show Header Background Color",
+        "id": "header_sticky",
+        "label": "Stick Header to the Top",
         "default": false
+      },
+      {
+        "type": "checkbox",
+        "id": "header_transparent",
+        "label": "Header Transparent",
+        "default": true
       }
     ]
   },

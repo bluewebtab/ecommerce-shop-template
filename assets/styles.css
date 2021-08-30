@@ -3733,7 +3733,7 @@ progress {
   background-color: #fff !important;
 }
 .bg-transparent {
-  background-color: transparent !important;
+  /* background-color: transparent !important; */
 }
 .bg-gradient {
   background-image: var(--bs-gradient) !important;
@@ -6536,9 +6536,7 @@ body {
 a:hover {
   color: #f84c4c;
 }
-.fixed-nav.transparent-nav .header {
-  background: transparent;
-}
+
 .fixed-nav.transparent-nav .header a {
   color: #fff;
 }
@@ -6586,8 +6584,12 @@ a:hover {
   a:hover {
   color: red;
 }
-.fixed-nav .header {
+.fixed-nav{
   position: fixed;
   width: 100%;
   z-index: 20;
 }
+
+
+
+

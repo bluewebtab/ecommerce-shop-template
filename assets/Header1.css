@@ -1,20 +1,20 @@
 .header1 {
   background: var(--header_bg);
-  color: #1b1b1b;
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding: 0 10px;
   height: 84px;
+  transition: all 0.3s ease-in-out;
 }
 .header1 a {
   font-family: sans-serif;
   text-decoration: none;
-  color: #2c2952;
+  color: var(--header_font_color);
   font-weight: 400;
 }
 .header1 a:hover {
-  color: #e63b49;
+  color: var(--header_font_color_hover);
 }
 .header1__collections-nav {
   margin-bottom: 0;
@@ -41,13 +41,13 @@
   left: 0;
 }
 .header1__collection-link .collection-link__sub-links a {
-  color: #2c2952;
+  color: var(--header_font_color);
   font-size: 0.9rem;
   display: block;
   padding: 10px 20px;
 }
 .header1__collection-link .collection-link__sub-links a:hover {
-  color: red;
+  color: var(--header_font_color_hover);
 }
 .header1__collection-link:hover .collection-link__sub-links {
   visibility: visible;
