@@ -142,26 +142,6 @@
         "button_link2": ""
       }
     },
-    "1628890453739165dc": {
-      "type": "collection-products-1",
-      "settings": {
-        "hero_height": "100vh",
-        "collection": "women-1",
-        "total_products": 16,
-        "container_shape": "rectangle",
-        "image_fit": "contain",
-        "background": "#ffffff",
-        "opacity": 100,
-        "show_title": true,
-        "show_colors": true,
-        "show_price": true,
-        "xxl_col": "col-xxl-3",
-        "xl_col": "col-xl-3",
-        "lg_col": "col-lg-3",
-        "md_col": "col-md-3",
-        "sm_col": "col-sm-6"
-      }
-    },
     "162889050158d11518": {
       "type": "hero-one",
       "blocks": {
@@ -198,6 +178,26 @@
         "opacity": 50,
         "info_alignment": "center"
       }
+    },
+    "1628890453739165dc": {
+      "type": "collection-products-1",
+      "settings": {
+        "hero_height": "100vh",
+        "collection": "women-1",
+        "total_products": 16,
+        "container_shape": "rectangle",
+        "image_fit": "contain",
+        "background": "#ffffff",
+        "opacity": 100,
+        "show_title": true,
+        "show_colors": true,
+        "show_price": true,
+        "xxl_col": "col-xxl-3",
+        "xl_col": "col-xl-3",
+        "lg_col": "col-lg-3",
+        "md_col": "col-md-3",
+        "sm_col": "col-sm-6"
+      }
     }
   },
   "order": [
@@ -207,7 +207,7 @@
     "16288903267d5f027e",
     "featured_products",
     "16288903913c581b2f",
-    "1628890453739165dc",
-    "162889050158d11518"
+    "162889050158d11518",
+    "1628890453739165dc"
   ]
 }
