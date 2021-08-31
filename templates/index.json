@@ -31,6 +31,7 @@
       ],
       "settings": {
         "hero_height": "100vh",
+        "image": "shopify:\/\/shop_images\/woman-in-fur-under-neon.jpg",
         "background": "#000000",
         "opacity": 50,
         "info_alignment": "center"
@@ -98,7 +99,7 @@
         "total_products": 16,
         "container_shape": "rectangle",
         "image_fit": "contain",
-        "background": "#FFFFFF",
+        "background": "#ffffff",
         "opacity": 100,
         "show_title": true,
         "show_colors": true,
@@ -147,7 +148,7 @@
         "total_products": 16,
         "container_shape": "rectangle",
         "image_fit": "contain",
-        "background": "#FFFFFF",
+        "background": "#ffffff",
         "opacity": 100,
         "show_title": true,
         "show_colors": true,
