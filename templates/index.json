@@ -193,6 +193,7 @@
       ],
       "settings": {
         "hero_height": "50vh",
+        "image": "shopify:\/\/shop_images\/black-hightop-LED-shoes.jpg",
         "background": "#000000",
         "opacity": 50,
         "info_alignment": "center"
