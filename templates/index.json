@@ -146,7 +146,7 @@
       "type": "collection-products-1",
       "settings": {
         "hero_height": "100vh",
-        "collection": "",
+        "collection": "women-1",
         "total_products": 16,
         "container_shape": "rectangle",
         "image_fit": "contain",
