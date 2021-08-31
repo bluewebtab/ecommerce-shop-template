@@ -19,7 +19,7 @@
         "16288902200d2ea6d1-2": {
           "type": "button",
           "settings": {
-            "button_label": "Click Here",
+            "button_label": "Button Label",
             "button_link": ""
           }
         }
@@ -43,19 +43,19 @@
         "16288903103dd37a19-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "adidas"
           }
         },
         "16288903103dd37a19-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "asics-tiger"
           }
         },
         "16288903103dd37a19-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "converse-1"
           }
         }
       },
