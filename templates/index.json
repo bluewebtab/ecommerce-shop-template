@@ -31,7 +31,7 @@
       ],
       "settings": {
         "hero_height": "100vh",
-        "image": "shopify:\/\/shop_images\/woman-in-fur-under-neon.jpg",
+        "image": "shopify:\/\/shop_images\/person-in-pink-and-white-sits-to-tie-their-running-shoes.jpg",
         "background": "#000000",
         "opacity": 50,
         "info_alignment": "center"
@@ -81,12 +81,12 @@
       "type": "hero-two",
       "settings": {
         "hero_height": "50vh",
-        "image1": "shopify:\/\/shop_images\/woman-poses-in-dark-room.jpg",
+        "image1": "shopify:\/\/shop_images\/stepping-on-deck.jpg",
         "background1": "#000000",
         "opacity1": 50,
         "button_label1": "Button label",
         "button_link1": "",
-        "image2": "shopify:\/\/shop_images\/woman-in-white-dress-outside.jpg",
+        "image2": "shopify:\/\/shop_images\/close-up-of-a-hiker-adjusting-there-shoes-on-a-big-rick.jpg",
         "background2": "#000000",
         "opacity2": 50,
         "button_label2": "Button label",
