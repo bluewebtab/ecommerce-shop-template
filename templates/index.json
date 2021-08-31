@@ -97,7 +97,7 @@
       "type": "collection-products-1",
       "settings": {
         "hero_height": "100vh",
-        "collection": "",
+        "collection": "adidas",
         "total_products": 16,
         "container_shape": "rectangle",
         "image_fit": "contain",
