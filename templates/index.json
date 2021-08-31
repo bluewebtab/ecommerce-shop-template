@@ -81,10 +81,12 @@
       "type": "hero-two",
       "settings": {
         "hero_height": "50vh",
+        "image1": "shopify:\/\/shop_images\/woman-poses-in-dark-room.jpg",
         "background1": "#000000",
         "opacity1": 50,
         "button_label1": "Button label",
         "button_link1": "",
+        "image2": "shopify:\/\/shop_images\/woman-in-white-dress-outside.jpg",
         "background2": "#000000",
         "opacity2": 50,
         "button_label2": "Button label",
