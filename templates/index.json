@@ -19,7 +19,7 @@
         "16288902200d2ea6d1-2": {
           "type": "button",
           "settings": {
-            "button_label": "Button label",
+            "button_label": "Button Label",
             "button_link": ""
           }
         }
@@ -31,6 +31,7 @@
       ],
       "settings": {
         "hero_height": "100vh",
+        "image": "shopify:\/\/shop_images\/person-in-pink-and-white-sits-to-tie-their-running-shoes.jpg",
         "background": "#000000",
         "opacity": 50,
         "info_alignment": "center"
@@ -42,19 +43,19 @@
         "16288903103dd37a19-0": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "adidas"
           }
         },
         "16288903103dd37a19-1": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "asics-tiger"
           }
         },
         "16288903103dd37a19-2": {
           "type": "featured_collection",
           "settings": {
-            "collection": ""
+            "collection": "converse-1"
           }
         }
       },
@@ -80,10 +81,12 @@
       "type": "hero-two",
       "settings": {
         "hero_height": "50vh",
+        "image1": "shopify:\/\/shop_images\/stepping-on-deck.jpg",
         "background1": "#000000",
         "opacity1": 50,
         "button_label1": "Button label",
         "button_link1": "",
+        "image2": "shopify:\/\/shop_images\/close-up-of-a-hiker-adjusting-there-shoes-on-a-big-rick.jpg",
         "background2": "#000000",
         "opacity2": 50,
         "button_label2": "Button label",
@@ -94,11 +97,11 @@
       "type": "collection-products-1",
       "settings": {
         "hero_height": "100vh",
-        "collection": "",
+        "collection": "adidas",
         "total_products": 16,
         "container_shape": "rectangle",
         "image_fit": "contain",
-        "background": "#FFFFFF",
+        "background": "#ffffff",
         "opacity": 100,
         "show_title": true,
         "show_colors": true,
@@ -139,26 +142,6 @@
         "button_link2": ""
       }
     },
-    "1628890453739165dc": {
-      "type": "collection-products-1",
-      "settings": {
-        "hero_height": "100vh",
-        "collection": "",
-        "total_products": 16,
-        "container_shape": "rectangle",
-        "image_fit": "contain",
-        "background": "#FFFFFF",
-        "opacity": 100,
-        "show_title": true,
-        "show_colors": true,
-        "show_price": true,
-        "xxl_col": "col-xxl-3",
-        "xl_col": "col-xl-3",
-        "lg_col": "col-lg-3",
-        "md_col": "col-md-3",
-        "sm_col": "col-sm-6"
-      }
-    },
     "162889050158d11518": {
       "type": "hero-one",
       "blocks": {
@@ -190,9 +173,30 @@
       ],
       "settings": {
         "hero_height": "50vh",
+        "image": "shopify:\/\/shop_images\/black-hightop-LED-shoes.jpg",
         "background": "#000000",
         "opacity": 50,
         "info_alignment": "center"
+      }
+    },
+    "1628890453739165dc": {
+      "type": "collection-products-1",
+      "settings": {
+        "hero_height": "100vh",
+        "collection": "women-1",
+        "total_products": 16,
+        "container_shape": "rectangle",
+        "image_fit": "contain",
+        "background": "#ffffff",
+        "opacity": 100,
+        "show_title": true,
+        "show_colors": true,
+        "show_price": true,
+        "xxl_col": "col-xxl-3",
+        "xl_col": "col-xl-3",
+        "lg_col": "col-lg-3",
+        "md_col": "col-md-3",
+        "sm_col": "col-sm-6"
       }
     }
   },
@@ -203,7 +207,7 @@
     "16288903267d5f027e",
     "featured_products",
     "16288903913c581b2f",
-    "1628890453739165dc",
-    "162889050158d11518"
+    "162889050158d11518",
+    "1628890453739165dc"
   ]
 }
