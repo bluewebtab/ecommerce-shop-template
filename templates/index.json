@@ -65,7 +65,7 @@
         "16288903103dd37a19-2"
       ],
       "settings": {
-        "container_shape": "square",
+        "container_shape": "circle",
         "image_fit": "contain",
         "background": "#ffffff",
         "opacity": 100,
