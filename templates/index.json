@@ -93,77 +93,24 @@
         "button_link2": ""
       }
     },
-    "162889050158d11518": {
-      "type": "hero-one",
-      "blocks": {
-        "162889050158d11518-0": {
-          "type": "heading",
-          "settings": {
-            "title": "Title",
-            "title_size": "md"
-          }
-        },
-        "162889050158d11518-1": {
-          "type": "paragraph",
-          "settings": {
-            "paragraph": "Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old."
-          }
-        },
-        "162889050158d11518-2": {
-          "type": "button",
-          "settings": {
-            "button_label": "Button label",
-            "button_link": ""
-          }
-        }
-      },
-      "block_order": [
-        "162889050158d11518-0",
-        "162889050158d11518-1",
-        "162889050158d11518-2"
-      ],
+    "163045467470b92fab": {
+      "type": "collection-products-1",
       "settings": {
-        "hero_height": "50vh",
-        "image": "shopify:\/\/shop_images\/black-hightop-LED-shoes.jpg",
-        "background": "#000000",
-        "opacity": 50,
-        "info_alignment": "center"
-      }
-    },
-    "163045320273eb86b3": {
-      "type": "collection-list",
-      "blocks": {
-        "163045320273eb86b3-0": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "163045320273eb86b3-1": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        },
-        "163045320273eb86b3-2": {
-          "type": "featured_collection",
-          "settings": {
-            "collection": ""
-          }
-        }
-      },
-      "block_order": [
-        "163045320273eb86b3-0",
-        "163045320273eb86b3-1",
-        "163045320273eb86b3-2"
-      ],
-      "settings": {
-        "title": "Collections",
-        "image_ratio": "square",
-        "color_scheme": "background-1",
-        "swipe_on_mobile": false,
-        "image_padding": false,
-        "show_view_all": false
+        "hero_height": "100vh",
+        "collection": "adidas",
+        "total_products": 16,
+        "container_shape": "rectangle",
+        "image_fit": "contain",
+        "background": "#FFFFFF",
+        "opacity": 100,
+        "show_title": true,
+        "show_colors": true,
+        "show_price": true,
+        "xxl_col": "col-xxl-3",
+        "xl_col": "col-xl-3",
+        "lg_col": "col-lg-3",
+        "md_col": "col-md-3",
+        "sm_col": "col-sm-6"
       }
     }
   },
@@ -171,7 +118,6 @@
     "16288902200d2ea6d1",
     "16288903103dd37a19",
     "162889026961963922",
-    "162889050158d11518",
-    "163045320273eb86b3"
+    "163045467470b92fab"
   ]
 }
