@@ -16,7 +16,7 @@
         "settings": {
           "header_type": "header1",
           "logo_width": 100,
-          "menu": "main-menu",
+          "menu": "main-menu-2",
           "menu_two": "main-menu"
         }
       },
@@ -27,19 +27,27 @@
             "type": "link_list",
             "settings": {
               "heading": "Quick links",
+              "menu": "main-menu"
+            }
+          },
+          "92c6ace8-e958-4feb-ae68-cd356910445a": {
+            "type": "link_list",
+            "settings": {
+              "heading": "Quick links",
               "menu": "footer"
             }
           }
         },
         "block_order": [
-          "footer-0"
+          "footer-0",
+          "92c6ace8-e958-4feb-ae68-cd356910445a"
         ],
         "settings": {
           "footer_p": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
           "newsletter_enable": true,
           "newsletter_heading": "Sign up to our emails",
-          "show_social": false,
-          "footer_bottom_menu": "main-menu"
+          "show_social": true,
+          "footer_bottom_menu": "main-menu-2"
         }
       }
     },
