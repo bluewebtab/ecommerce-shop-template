@@ -31,9 +31,41 @@
   padding: 15px 40px;
 }
 
+.highlight-container--top{
+  position: relative;
+}
+
+.highlight-container--center{
+  position: relative;
+}
+
+.highlight-container--bottom{
+  position: relative;
+}
+
+.product-info--top{
+  top: 0;
+  position: absolute;
+}
+
+.product-info--center{
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+.product-info--bottom{
+  bottom: 0;
+  position: absolute;
+}
+
+
+
 </style>
 
-<div class="product-highlight">
+<div class="product-highlight" style="background-color: {{section.settings.background}};">
   <div class="container">
     <div class="row">
       <div class="col-md-6">
@@ -57,13 +89,16 @@
         {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
       {%- endif -%}
       </div>
-      <div class="col-md-4">
-        <div class="product-highlight__info-container">
+      <div class="col-md-4 highlight-container--{{section.settings.highlight_alignment}}">
+        <div class="product-highlight__info-container product-info--{{section.settings.highlight_alignment}}">
          {%- for block in section.blocks -%}
           {% case block.type %}
             {%- when 'heading' -%}
               <h2 class="product-highlight__title hero1__title--{{- block.settings.title_size -}}">{{ block.settings.title | escape }}</h2>
-            
+            {%- when 'price' -%}
+            <p class="product-highlight__price-color" style="color: {{block.settings.highlight-color}}; font-size: 30px;">
+              {{ block.settings.price | escape }}
+            </p>
             {%- when 'paragraph' -%}
               <p class="product-highlight__paragraph">
                 {{ block.settings.paragraph | escape }}
@@ -196,6 +231,26 @@
       ],
       "default": "right",
       "label": "Info Alignment"
+    },
+    {
+      "type": "select",
+      "id": "highlight_alignment",
+      "options": [
+        {
+          "value": "top",
+          "label": "Top"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "bottom",
+          "label": "Bottom"
+        }
+      ],
+      "default": "top",
+      "label": "Product Highlight Alignment"
     }
   ],
   "blocks": [
@@ -233,6 +288,25 @@
         ],
         "default": "md",
         "label": "Font Size"
+      }
+      ]
+    },
+    {
+      "type": "price",
+      "name": "Price",
+      "limit": 1,
+      "settings": [
+      {
+        "type": "textarea",
+        "id": "price",
+        "label": "Price",
+        "default": "$9.99"
+      },
+      {
+        "type": "color",
+        "id": "highlight-color",
+        "label": "Highlight Color",
+        "default": "#FFFFFF"
       }
       ]
     },
@@ -275,6 +349,9 @@
       "blocks": [
         {
           "type": "heading"
+        },
+        {
+          "type": "price"
         },
         {
           "type": "paragraph"
